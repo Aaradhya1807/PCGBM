@@ -1,0 +1,96 @@
+create database pcgbm;
+use pcgbm;
+create table pcgbm(G_name varchar(50) primary key,processor varchar(50),memory varchar(50),graphics varchar(50),storage_GB_ int(5),price_$_ int(6),platform varchar(50),ReviewScore_outof100 int(6),PCprice_Rs int);
+
+insert into pcgbm values("Grand Theft Auto V (GTA 5)", "i7","4GB","Geforce GTX 1060","72","15","WINDOWS","96","128000");
+insert into pcgbm values("Destiny 2", "i7","16GB","Geforce GTX 1060","105","0","WINDOWS","83","141000");
+insert into pcgbm values("Destiny 2: Beyond Light", "i7","8GB","Geforce GTX 1060","105","70","WINDOWS","83","131000");
+insert into pcgbm values("World of Warcraft", "i7","8GB","Geforce GTX 1050 Ti","5","15","WINDOWS","93","127000");
+insert into pcgbm values("Portal 2", "i7","4GB","Geforce GTX 1070 Ti","10","0","WINDOWS","95","144000");
+insert into pcgbm values("Mount and Blade", "i7","8GB","Geforce GTX 1070 Ti","16","0","WINDOWS","78","147000");
+insert into pcgbm values("Monster Hunter:World", "i7","8GB","Geforce GTX 1070 Ti","20","21","WINDOWS","88","147000");
+insert into pcgbm values("Assassins Creed", "i7","8GB","Geforce GTX 1060","50","13","WINDOWS","80","131000");
+insert into pcgbm values('The red dead redemption 2', 'i7', '16GB', 'Geforce GTX 1060', '150', '30', 'WINDOWS',"94","141000");
+insert into pcgbm values('League of Legends', 'i7', '16GB', 'Geforce GTX 1060', '12', '16', 'WINDOWS',"76","141000");
+insert into pcgbm values('Fifa 20', 'i7', '8GB', 'Geforce GTX 1060', '50', '21', 'WINDOWS',"20","131000");
+insert into pcgbm values('CRUCIBLE', 'i7', '8GB', 'Geforce GTX 1060', '15', '16', 'WINDOWS',"60","131000");
+
+insert into pcgbm values("STAR WARS Jedi: Fallen Order", "i5","8GB","Geforce GTX 1070 Ti","55","35","WINDOWS","90","119000");
+
+insert into pcgbm values('GTA IV', 'i5', '16GB', 'Geforce GTX 1050 Ti', '16', '11', 'WINDOWS',"90","109000");
+insert into pcgbm values('NBA 2K20', 'i5', '8GB', 'Geforce GTX 1050 Ti', '80', '13', 'WINDOWS',"79","99000");
+
+insert into pcgbm values("iRacing", "i5","8GB","Geforce GTX 1060","6","0","WINDOWS","79","103000");
+insert into pcgbm values("DOOM Eternal", "i5","8GB","Geforce GTX 1060","50","31","WINDOWS","90","103000");
+
+insert into pcgbm values("The Elder Scrolls V: Skyrim", "i5","4GB","Geforce GTX 1060","6","16","WINDOWS","94","100000");
+insert into pcgbm values("Divinity", "i5","4GB","Geforce GTX 1060","16","0","WINDOWS","94","100000");
+
+insert into pcgbm values('Valorant', 'i3', '8GB', 'Geforce GTX 1070 Ti', '120', '0', 'WINDOWS',"81","114000");
+insert into pcgbm values('The Witcher 3', 'i3', '8GB', 'Geforce GTX 1070 Ti', '55', '40', 'WINDOWS',"93","114000");
+insert into pcgbm values('MINECRAFT', 'i3', '8GB', 'Geforce GTX 1070 Ti', '4', '0', 'WINDOWS',"93","114000");
+
+insert into pcgbm values('Pubg Lite', 'i3', '4GB', 'Geforce GTX 1050 Ti', '4', '0', 'WINDOWS',"86","91000");
+insert into pcgbm values('Counter Strike:Global Offensive', 'i3', '4GB', 'Geforce GTX 1050 Ti', '15', '0', 'WINDOWS',"83","91000");
+insert into pcgbm values("Call of Duty: Black Ops III", "i3","4GB","Geforce GTX 1050 Ti","100","36","WINDOWS","73","91000");
+
+insert into pcgbm values("Mass Effect 2", "i3","4GB","Geforce GTX 1070 Ti","14","4","WINDOWS","94","111000");
+insert into pcgbm values("Black Desert", "i3","4GB","Geforce GTX 1070 Ti","15","0","WINDOWS","73","111000");
+
+insert into pcgbm values("FIFA 19", "i3","8GB","Geforce GTX 1050 Ti","50","40","WINDOWS","81","94000");
+insert into pcgbm values("Fortnite", "i3","8GB","Geforce GTX 1050 Ti","15","0","WINDOWS","81","94000");
+
+insert into pcgbm values('Age Of Empires II', 'i5', '4GB', 'Geforce GTX 1050 Ti', '30', '15', 'WINDOWS',"81","96000");
+insert into pcgbm values('The Borderlands 2', 'i5', '4GB', 'Geforce GTX 1050 Ti', '20', '26', 'WINDOWS',"90","96000");
+insert into pcgbm values('Divinity:Original', 'i5', '4GB', 'Geforce GTX 1050 Ti', '10', '0', 'WINDOWS',"94","96000");
+insert into pcgbm values("GTA:Vice City", "i5","4GB","Geforce GTX 1050 Ti","10","3","WINDOWS","94","96000");
+insert into pcgbm values("FINAL FANTASY XIV Online", "i5","4GB","Geforce GTX 1050 Ti","60","15","WINDOWS","83","96000");
+insert into pcgbm values("Football Manager 2020", "i5","4GB","Geforce GTX 1050 Ti","50","30","WINDOWS","87","96000");
+
+insert into pcgbm values('Apex', 'i7', '16GB', 'Geforce GTX 1060', '30', '3', 'WINDOWS',"88","141000");
+insert into pcgbm values('Warzone', 'i7', '16GB', 'Geforce GTX 1060', '197', '61', 'WINDOWS',"79","141000");
+insert into pcgbm values('Star Citizen 2', 'i7', '16GB', 'Geforce GTX 1060', '40', '10', 'WINDOWS',"42","141000");
+
+insert into pcgbm values("Sid Meier’s Civilization VI", "i7","4GB","Geforce GTX 1050 Ti","15","60","WINDOWS","88","124000");
+insert into pcgbm values("Dota 2", "i7","4GB","Geforce GTX 1050 Ti","15","0","WINDOWS","90","124000");
+insert into pcgbm values("Cities: Skylines", "i7","4GB","Geforce GTX 1050 Ti","5","30","WINDOWS","85","124000");
+
+insert into pcgbm values("Apex Legends", "i7","16GB","Geforce GTX 1050 Ti","35","0","WINDOWS","88","137000");
+insert into pcgbm values("PUBG PC", "i7","16GB","Geforce GTX 1050 Ti","35","31","WINDOWS","86","137000");
+insert into pcgbm values("Call of Duty: Modern Warfare", "i7","16GB","Geforce GTX 1050 Ti","55","40","WINDOWS","89","137000");
+
+insert into pcgbm values("Star Citizen", "i3","16GB","Geforce GTX 1050 Ti","40","11","WINDOWS","42","104000");
+insert into pcgbm values("The Sims 4", "i3","16GB","Geforce GTX 1050 Ti","20","41","WINDOWS","70","104000");
+insert into pcgbm values("Tom Clancy's Rainbow Six Siege", "i3","16GB","Geforce GTX 1050 Ti","61","20","WINDOWS","79","104000");
+
+insert into pcgbm values("Assassin's Creed Odyssey", "i5","16GB","Geforce GTX 1060","46","60","WINDOWS","98","113000");
+insert into pcgbm values("ARK: Survival Evolved", "i5","16GB","Geforce GTX 1060","60","50","WINDOWS","71","113000");
+insert into pcgbm values("Planet Zoo", "i5","16GB","Geforce GTX 1060","16","50","WINDOWS","82","113000");
+
+insert into pcgbm values("Overwatch", "i3","4GB","Geforce GTX 1060","30","40","WINDOWS","91","95000");
+insert into pcgbm values("Euro Truck Simulator 2", "i3","4GB","Geforce GTX 1060","3","20","WINDOWS","79","95000");
+insert into pcgbm values("Farming Simulator 19", "i3","4GB","Geforce GTX 1060","23","25","WINDOWS","77","95000");
+
+insert into pcgbm values("Anno 1800", "i3","8GB","Geforce GTX 1060","40","28","WINDOWS","81","98000");
+insert into pcgbm values("Terraria", "i3","8GB","Geforce GTX 1060","2","10","WINDOWS","83","98000");
+insert into pcgbm values("Age of Empires II: Definitive Edition", "i3","8GB","Geforce GTX 1060","30","20","WINDOWS","90","98000");
+
+insert into pcgbm values("Total War: WARHAMMER II", "i3","16GB","Geforce GTX 1060","51","60","WINDOWS","87","108000");
+insert into pcgbm values("Dead by Daylight", "i3","16GB","Geforce GTX 1060","25","20","WINDOWS","71","108000");
+insert into pcgbm values("Scrap Mechanic", "i3","16GB","Geforce GTX 1060","15","20","WINDOWS","85","108000");
+
+insert into pcgbm values("Rust", "i7","16GB","Geforce GTX 1070 Ti","20","40","WINDOWS","69","157000");
+insert into pcgbm values("Battlefield 5", "i7","16GB","Geforce GTX 1070 Ti","50","50","WINDOWS","81","157000");
+insert into pcgbm values("Metro Exodus", "i7","16GB","Geforce GTX 1070 Ti","59","40","WINDOWS","95","157000");
+
+insert into pcgbm values("Far Cry 3", "i5","4GB","Geforce GTX 1070 Ti","15","20","WINDOWS","88","116000");
+insert into pcgbm values("Call of Duty: Black Ops II", "i5","4GB","Geforce GTX 1070 Ti","16","60","WINDOWS","74","116000");
+insert into pcgbm values("Black Desert 2", "i5","4GB","Geforce GTX 1070 Ti","28","100","WINDOWS","73","116000");
+
+insert into pcgbm values("MONSTER HUNTER: WORLD", "i5","16GB","Geforce GTX 1070 Ti","20","30","WINDOWS","88","129000");
+insert into pcgbm values("Assassin's Creed Unity", "i5","16GB","Geforce GTX 1070 Ti","50","30","WINDOWS","77","129000");
+insert into pcgbm values("Assassin's Creed Origins", "i5","16GB","Geforce GTX 1070 Ti","42","60","WINDOWS","81","129000");
+
+insert into pcgbm values("Far Cry 5", "i3","16GB","Geforce GTX 1070 Ti","40","60","WINDOWS","89","124000");
+insert into pcgbm values("No Man's Sky", "i3","16GB","Geforce GTX 1070 Ti","10","60","WINDOWS","61","124000");
+insert into pcgbm values("Fallout 4", "i3","16GB","Geforce GTX 1070 Ti","30","55","WINDOWS","84","124000");
